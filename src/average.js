@@ -18,12 +18,12 @@ function average(array) {
     if (typeof array[index] !== 'number') {
       return undefined;
     }
-    total += array[index]
+    total += array[index];
   }
   if (array.length === 0) {
-    return undefined
+    return undefined;
   }
-  return Math.round(total/array.length);
-};
+  return Math.round(total / array.length);
+}
 
 module.exports = average;
